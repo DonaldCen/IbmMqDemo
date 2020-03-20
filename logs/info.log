@@ -1,0 +1,7 @@
+[2020-03-20 08:12:38] INFO  com.xuanwu.util.IbmMqFactory 83 createMqQueueManager - 初始化队列管理器完成!
+[2020-03-20 08:15:57] INFO  com.xuanwu.util.IbmMqFactory 83 createMqQueueManager - 初始化队列管理器完成!
+[2020-03-20 08:16:31] INFO  com.xuanwu.util.IbmMqFactory 83 createMqQueueManager - 初始化队列管理器完成!
+[2020-03-20 09:21:17] INFO  com.xuanwu.util.IbmMqFactory 61 getMqQueueManager - 初始化队列管理器完成!
+[2020-03-20 09:31:17] INFO  com.xuanwu.util.IbmMqFactory 61 getMqQueueManager - 初始化队列管理器完成!
+[2020-03-20 09:32:33] INFO  com.xuanwu.util.IbmMqFactory 61 getMqQueueManager - 初始化队列管理器完成!
+[2020-03-20 09:33:38] INFO  com.xuanwu.util.IbmMqFactory 61 getMqQueueManager - 初始化队列管理器完成!
