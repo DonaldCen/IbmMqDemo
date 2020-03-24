@@ -25,6 +25,8 @@ public class Config {
     private String password;
     @Value("${ibm.mq.ccsid}")
     private int ccsid;
+    @Value("${ibm.mq.queueName}")
+    private String queueName;
 
     @Value("${ibm.mq.maximumSize}")
     private int maximumSize;
@@ -163,5 +165,13 @@ public class Config {
 
     public void setManagerPoolUnusedConnections(int managerPoolUnusedConnections) {
         this.managerPoolUnusedConnections = managerPoolUnusedConnections;
+    }
+
+    public String getQueueName() {
+        return queueName;
+    }
+
+    public void setQueueName(String queueName) {
+        this.queueName = queueName;
     }
 }

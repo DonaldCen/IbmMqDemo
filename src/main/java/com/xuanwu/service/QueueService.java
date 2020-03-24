@@ -1,5 +1,6 @@
 package com.xuanwu.service;
 
+import com.ibm.mq.MQException;
 import com.ibm.mq.MQQueue;
 
 /**
@@ -10,7 +11,8 @@ import com.ibm.mq.MQQueue;
  */
 public interface QueueService {
 
-    MQQueue findQueueByName(String queueName);
+    void putMessageToQueue(String msg) throws MQException;
 
-    MQQueue addQueue(String queueName);
+    String getMessageFromQueue() throws MQException;
+
 }
